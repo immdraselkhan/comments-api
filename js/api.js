@@ -36,7 +36,7 @@ const getPosts = post => {
     const postDiv = document.createElement('div');
     postDiv.innerHTML = `
         <div id="modal-box" class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-emerald-500 bg-opacity-30 transform scale-100 transition-transform duration-300">
-            <div class="bg-white w-[90%] md:w-4/5 lg:w-[45%] rounded">
+            <div class="bg-white w-[90%] md:w-4/5 lg:w-[45%] mr-2 rounded">
                 <div class="flex justify-between items-center border-b mt-2 px-8 py-3">
                     <h3 class="text-xl font-semibold">Post ID: ${post.id}</h3>
                     <button id="close-button" type="button" class="text-white px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 rounded">Close</button>
